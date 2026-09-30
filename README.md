@@ -1,9 +1,7 @@
 # buether/tap
 
 ```
-brew tap buether/tap
-brew install meeting-alarm
-meeting-alarm install
+brew install buether/tap/meeting-alarm && meeting-alarm install
 ```
 
 | Formula | |
