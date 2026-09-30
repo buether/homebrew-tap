@@ -1,8 +1,8 @@
 class MeetingAlarm < Formula
   desc "Loud alarm 15 seconds before a meeting starts"
   homepage "https://github.com/buether/meeting-alarms"
-  url "https://github.com/buether/meeting-alarms/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "ff73d6da1c393ba89d6081d8b806929fcea8290f967384558a2c0b560a022b3f"
+  url "https://github.com/buether/meeting-alarms/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "77b74a1414a08b60d1f906d2b2e5b3d4a9fc994d1cbf1981325004b906f593eb"
   license "MIT"
 
   # No Xcode dependency: `depends_on xcode:` demands the full Xcode.app, and the
