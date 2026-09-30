@@ -5,7 +5,9 @@ class MeetingAlarm < Formula
   sha256 "ff73d6da1c393ba89d6081d8b806929fcea8290f967384558a2c0b560a022b3f"
   license "MIT"
 
-  depends_on xcode: :clt
+  # No Xcode dependency: `depends_on xcode:` demands the full Xcode.app, and the
+  # Command Line Tools that supply swiftc are already required for any build
+  # from source.
   depends_on macos: :sonoma
 
   def install
